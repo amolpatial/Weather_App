@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80');
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+     border-radius: 10px;
+
+    box-shadow: 5px 10px 40px 0px rgba(0,0,0,0.42);
+    font-size: 15px;
+}
+
+button{
+width: 50px;
+cursor: pointer;
+height: 30px;
+background-color: transparent;
+border: none;
+color: white;
+text-align: center;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+   
+    color: white;
+    width: 30%;
+    margin: 50px auto 0 auto;
+  
+    color: #fff;
+    border-radius: 5%;
+}
+
+
+.container{
+    margin-top: 50px;
+    color: white;
+}
+
+.container-2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+@media screen  and (max-width:1015px){
+    #search{
+      margin-left: 38%;
+      margin-top: 10%;
+    }
+    
+}
